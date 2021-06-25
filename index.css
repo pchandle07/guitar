@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.contact {
+    color: white;
+    width: 100%;
+    position: relative;
+    right: -550px;
+}
+
+.contact ul li {
+    display: inline;
+}
+
+hr {
+    background-color: rgb(143, 143, 143);
+}
+
+body {
+    background-image: url("two.jpg");
+    background-size: cover;
+}
+
+
+/* .mainnav {
+    margin-top: 50px;
+} */
+
+.mainnav li {
+    padding: 10px;
+}
+
+.nav-item {
+    font-weight: 900;
+}
+
+.nav-item a:hover {
+    color: red;
+}
+
+.social li {
+    padding: 10px;
+    font-size: 20px;
+}
+
+.dropdown-menu a {
+    font-weight: 800;
+}
+
+.fa {
+    text-decoration: none;
+    color: rgb(168, 162, 162);
+}
+
+.fa:hover {
+    color: red;
+}
+
+.title {
+    margin: 100px 185px;
+    font-family: 'Reem Kufi', sans-serif;
+}
+
+.one {
+    color: #ec5252;
+    font-size: 100px;
+    padding: 20px 0 0 0;
+    font-weight: 800;
+}
+
+.two {
+    color: #fff;
+    font-size: 100px;
+    padding: 20px 0 0 0;
+    font-weight: 900;
+}
+
+.title h3 {
+    color: #fff;
+    font-size: 20px;
+    padding: 0 0 0 5px;
+}
+
+.start {
+    color: white;
+    padding: 20px 40px;
+    background-color: black;
+    border-radius: 50px;
+    font-weight: 800;
+    font-size: 25px;
+    border-style: solid;
+    position: relative;
+    top: -50px;
+}
+
+
+/* MOBILE VIEW */
+
+@media only screen and (max-width: 600px) {
+    .contact {
+        visibility: collapse;
+    }
+}
